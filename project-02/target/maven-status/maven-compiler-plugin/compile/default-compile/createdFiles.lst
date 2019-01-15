@@ -1,0 +1,5 @@
+com\journaldev\spring\SpringBootRestApplication.class
+com\journaldev\spring\PersonController.class
+META-INF\maven\com.journaldev.spring\Spring-Boot-REST\pom.xml
+META-INF\maven\com.journaldev.spring\Spring-Boot-REST\pom.properties
+com\journaldev\spring\Person.class
