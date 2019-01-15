@@ -230,9 +230,11 @@ To https://github.com/sandeeppratap30/cloud-learning.git
 sandeeppratap.s@LP-CND53531DQ MINGW64 ~/OneDrive - HCL Technologies Ltd/Sandeep/GCP Tutorials/cloud-learning (first-spring-boot-docker)
 $
 
-
-
-
-
-
-
+Delete branch:
+---------------
+To delete branch switch to that branch :  git checkout HelloWorldJava
+Delete Branch(Remote) : git push origin --delete HelloWorldJava
+git branch
+To delete branch(Local) go to master : git checkout master
+Delete branch(local) : git branch -D HelloWorldJava
+git branch 

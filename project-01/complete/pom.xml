@@ -18,7 +18,7 @@
     </parent>
 
     <properties>
-        <docker.image.prefix>springio</docker.image.prefix>
+        <docker.image.prefix>gcr.io</docker.image.prefix>
         <java.version>1.8</java.version>
     </properties>
 
@@ -34,7 +34,7 @@
                 <artifactId>dockerfile-maven-plugin</artifactId>
                 <version>1.4.9</version>
                 <configuration>
-                    <repository>${docker.image.prefix}/${project.artifactId}</repository>
+                    <repository>${docker.image.prefix}/<add_project_id_here>/${project.artifactId}</repository>
                 </configuration>
             </plugin>
             <!-- end::plugin[] -->
