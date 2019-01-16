@@ -2,7 +2,9 @@ apt-get -y install maven
 
 =========
 
-₹21,053.63 credit - 330 days - 08 Jan 2019
+330 days and ₹21,053.63 credit left - 08 Jan 2019
+
+322 days and ₹20,984.30 credit left - 15 Jan 2019
 
 ====================
 
@@ -238,3 +240,13 @@ git branch
 To delete branch(Local) go to master : git checkout master
 Delete branch(local) : git branch -D HelloWorldJava
 git branch 
+
+========================
+https://cloud.google.com/datastore/docs/datastore-api-tutorial#datastore-datastore-build-service-java
+git clone https://github.com/GoogleCloudPlatform/java-docs-samples
+
+============
+
+https://github.com/mayank412/Cloud.git
+
+https://spring.io/guides/gs/spring-boot-docker/
