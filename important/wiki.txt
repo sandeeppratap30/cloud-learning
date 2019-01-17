@@ -242,6 +242,7 @@ Delete branch(local) : git branch -D HelloWorldJava
 git branch 
 
 ========================
+
 https://cloud.google.com/datastore/docs/datastore-api-tutorial#datastore-datastore-build-service-java
 git clone https://github.com/GoogleCloudPlatform/java-docs-samples
 
@@ -250,3 +251,32 @@ git clone https://github.com/GoogleCloudPlatform/java-docs-samples
 https://github.com/mayank412/Cloud.git
 
 https://spring.io/guides/gs/spring-boot-docker/
+https://github.com/googleapis/google-cloud-java
+
+https://cloud.google.com/appengine/docs/standard/java/datastore/
+https://cloud.google.com/java/samples
+https://cloud.google.com/java/getting-started/using-cloud-datastore
+https://cloud.google.com/docs/
+https://cloud.google.com/datastor
+e/docs/datastore-api-tutorial#datastore-datastore-build-service-java
+
+================= Docker build
+sandeep_pratap@cloudshell:~/java-docs-samples/datastore/Cloud/Spring-Boot-REST-Datastore/target (my-project-b8849)$ mvn dockerfile:build
+
+============
+
+https://cloud.google.com/java/getting-started/tutorial-app
+
+===========
+
+sandeep_pratap@cloudshell:~/java-docs-samples/datastore/Cloud/Spring-Boot-REST-Datastore (my-project-b8849)$ mvn clean install
+
+sandeep_pratap@cloudshell:~/java-docs-samples/datastore/Cloud/Spring-Boot-REST-Datastore (my-project-b8849)$ mvn -X dockerfile:build
+
+sandeep_pratap@cloudshell:~/java-docs-samples/datastore/Cloud/Spring-Boot-REST-Datastore (my-project-b8849)$ docker run -p 8989:8989 -it gcr.io/my-project-b8849/spring-boot-rest-datastore
+
+sandeep_pratap@cloudshell:~/java-docs-samples/datastore/Cloud/Spring-Boot-REST-Datastore (my-project-b8849)$ docker push gcr.io/my-project-b8849/spring-boot-rest-datastore:latest
+
+sandeep_pratap@cloudshell:~/java-docs-samples/datastore/Cloud/Spring-Boot-REST-Datastore (my-project-b8849)$ docker run -p 9090:8080 -it gcr.io/my-project-b8849/spring-boot-rest-datastore
+
+docker run -p <HOST_PORT>:<CONTAINER:PORT> IMAGE_NAME
