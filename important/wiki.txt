@@ -280,3 +280,7 @@ sandeep_pratap@cloudshell:~/java-docs-samples/datastore/Cloud/Spring-Boot-REST-D
 sandeep_pratap@cloudshell:~/java-docs-samples/datastore/Cloud/Spring-Boot-REST-Datastore (my-project-b8849)$ docker run -p 9090:8080 -it gcr.io/my-project-b8849/spring-boot-rest-datastore
 
 docker run -p <HOST_PORT>:<CONTAINER:PORT> IMAGE_NAME
+
+============
+
+https://cloud.google.com/datastore/docs/tools/datastore-emulator
