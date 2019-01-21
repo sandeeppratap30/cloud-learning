@@ -6,6 +6,8 @@ apt-get -y install maven
 
 322 days and ₹20,984.30 credit left - 15 Jan 2019
 
+₹20,753.72 credit and 316 days - 21 Jan 2019
+
 ====================
 
 Bucket commands for data transfer
@@ -301,3 +303,15 @@ https://github.com/GoogleCloudPlatform/cloud-sql-jdbc-socket-factory
 sandeep_pratap@cloudshell:~/cloud-sql-jdbc-socket-factory/examples/mysql/compute-engine (my-project-b8849)$ mvn exec:java
 
 jdbcUrl=====>jdbc:mysql://google/mysql?cloudSqlInstance=my-project-b8849:us-central1:mysql-cloud&socketFactory=com.google.cloud.sql.mysql.SocketFactory
+
+
+============
+https://cloud.google.com/sql/docs/mysql/connect-admin-ip
+
+sudo apt-get update
+sudo apt-get install mysql-client
+
+sandeep_pratap@cloudshell:~/Cloud/docker-mysql-spring-boot (my-project-b8849)$ gcloud sql connect mysql-cloud  --user=root
+
+> show databse
+> show tables
