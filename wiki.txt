@@ -284,3 +284,20 @@ docker run -p <HOST_PORT>:<CONTAINER:PORT> IMAGE_NAME
 ============
 
 https://cloud.google.com/datastore/docs/tools/datastore-emulator
+
+================
+project=my-project-b8849
+mysql-cloud
+root/root
+
+https://cloud.google.com/sql/docs/mysql/connect-external-app#java
+
+https://github.com/GoogleCloudPlatform/cloud-sql-jdbc-socket-factory/blob/master/examples/compute-engine/src/main/java/com/google/cloud/sql/mysql/example/ListTables.java
+
+https://github.com/GoogleCloudPlatform/cloud-sql-jdbc-socket-factory
+
+=========
+
+sandeep_pratap@cloudshell:~/cloud-sql-jdbc-socket-factory/examples/mysql/compute-engine (my-project-b8849)$ mvn exec:java
+
+jdbcUrl=====>jdbc:mysql://google/mysql?cloudSqlInstance=my-project-b8849:us-central1:mysql-cloud&socketFactory=com.google.cloud.sql.mysql.SocketFactory
