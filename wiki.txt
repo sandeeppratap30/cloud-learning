@@ -2,11 +2,21 @@ apt-get -y install maven
 
 =========
 
-330 days and ₹21,053.63 credit left - 08 Jan 2019
+₹21,053.63 credit and 330 days remaining - 08 Jan 2019
 
-322 days and ₹20,984.30 credit left - 15 Jan 2019
+₹20,984.30 credit and 322 days remaining - 15 Jan 2019
 
-₹20,753.72 credit and 316 days - 21 Jan 2019
+₹20,753.72 credit and 316 days remaining - 21 Jan 2019
+
+₹20,635.70 credit and 315 days remaining - 22 Jan 2019
+
+₹20,619.48 credit and 313 days remaining - 24 Jan 2019
+
+₹20,619.48 credit and 218 days remaining - 29 Apr 2019
+
+₹17,336.28 credit and 209 days remaining - 08 May 2019
+
+₹17,279.25 credit and 197 days remaining - 20 May 2019
 
 ====================
 
